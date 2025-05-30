@@ -1,12 +1,24 @@
-# React + Vite
+# TODO Application 📝 
+A react based todo application that serves the features like task addition, removal, and completion marking. Tasks are validated and displayed dynamically to the user and it also offers optional sorting, filtering, and localStorage integration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features -
 
-Currently, two official plugins are available:
+Add, delete, and toggle todos
+Filter by: All, Completed, Incomplete
+Sort by:
+A-Z
+Z-A
+Earliest (time added)
+Latest (time added)
+Responsive UI with dropdowns
+LocalStorage persistence
+# Testing the App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository git clone https://github.com/manuj-chadha/todo.git
 
-## Expanding the ESLint configuration
+2. npm install for installing node dependencies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Use run command to test the features (npm run dev).
+
+Alternatively, you can check out my project here -
+https://todo-manuj-chadhas-projects.vercel.app/
